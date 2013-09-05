@@ -22,6 +22,7 @@
 		19135D1C17D909C90034DC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19135CFB17D909C90034DC69 /* UIKit.framework */; };
 		19135D2417D909C90034DC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19135D2217D909C90034DC69 /* InfoPlist.strings */; };
 		19135D2617D909C90034DC69 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19135D2517D909C90034DC69 /* gitTestTests.m */; };
+		19135D3117D90C860034DC69 /* BranchEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 19135D3017D90C860034DC69 /* BranchEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		19135D2117D909C90034DC69 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		19135D2317D909C90034DC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19135D2517D909C90034DC69 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		19135D2F17D90C860034DC69 /* BranchEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchEx.h; sourceTree = "<group>"; };
+		19135D3017D90C860034DC69 /* BranchEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchEx.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				19135D1017D909C90034DC69 /* ViewController.m */,
 				19135D1217D909C90034DC69 /* Images.xcassets */,
 				19135CFE17D909C90034DC69 /* Supporting Files */,
+				19135D2F17D90C860034DC69 /* BranchEx.h */,
+				19135D3017D90C860034DC69 /* BranchEx.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19135D3117D90C860034DC69 /* BranchEx.m in Sources */,
 				19135D1117D909C90034DC69 /* ViewController.m in Sources */,
 				19135D0817D909C90034DC69 /* AppDelegate.m in Sources */,
 				19135D0417D909C90034DC69 /* main.m in Sources */,
